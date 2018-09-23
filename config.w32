@@ -1,0 +1,7 @@
+// vim:ft=javascript
+
+ARG_ENABLE("integer-math", "enable Integer Math support", "no");
+
+if (PHP_INTEGER_MATH != "no") {
+    EXTENSION("integer_math", "integer_math.c");
+}

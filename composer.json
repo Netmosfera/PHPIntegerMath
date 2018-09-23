@@ -1,0 +1,25 @@
+{
+    "name": "netmosfera/integer-math",
+    "description": "Integer Math",
+    "homepage": "https://github.com/Netmosfera/PHPIntegerMath",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wes",
+            "homepage": "https://github.com/Netmosfera",
+            "role": "Smith"
+        }
+    ],
+    "require": {
+        "php": ">=7.3 <7.4",
+        "ext-Integer-Math": ">=7.3 <7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7 <8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netmosfera\\IntegerMathTests\\": "tests/"
+        }
+    }
+}
